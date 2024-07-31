@@ -18,15 +18,18 @@ git checkout feature-to-be-added
 ### To commit and push changes to the 'feature-to-be-added' branch
 ``` 
 git add .
- 
-git commit -m "descr" -m "longer description"
-
-git push origin feature-to-be-added
 ```
+```  
+git commit -m "descr" -m "longer description"
+```
+``` 
+git push origin feature-to-be-added
+``` 
 
 ### To force pull (will overwrite your local repo in case of emergency)
 ```
 git fetch origin feature-to-be-added
- 
+```
+``` 
 git reset --hard origin/feature-to-be-added
 ```
